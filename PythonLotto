@@ -1,0 +1,23 @@
+from random import* #Random Module
+
+print("-Python Lotto-\n----------------------------------")
+
+mode=input("Select 'Auto' or 'Self'") #Setting Mode
+
+if mode=="Auto":
+    num=randint(1,45)
+    print("Your number is {0}.".format(num)) # Select number
+elif mode=="Self":
+    num=input("Your number(1~45)")
+else:
+    print("Error")
+    wrwerwerwedsfc #Error
+
+Ainum=randint(1,45)
+print("Ai's number: {0}\nYour number: {1}".format(Ainum,num))
+if Ainum==num:
+    print("You Win!") # If your number is same with Ai's number
+elif Ainum!=num:
+    print("You Lose!") # If your number is not same  
+    
+#Win is very very very hard to do.    
